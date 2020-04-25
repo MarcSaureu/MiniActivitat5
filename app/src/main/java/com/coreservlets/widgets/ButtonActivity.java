@@ -1,9 +1,6 @@
 
 package com.coreservlets.widgets;
 
-import java.util.ArrayList;
-
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;

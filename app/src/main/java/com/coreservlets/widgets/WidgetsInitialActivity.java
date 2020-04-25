@@ -29,5 +29,16 @@ public class WidgetsInitialActivity extends Activity {
     	Intent in = new Intent(this, SpinnerActivity.class);
         startActivity(in);
     }
+
+    public void muestraListView(View clickedButton) {
+        Intent in = new Intent(this, ListViewActivity.class);
+        startActivity(in);
+    }
+
+    public void muestraGridView(View clickedButton) {
+        Intent in = new Intent(this, GridViewActivity.class);
+        in.putExtra("contador", 2);
+        startActivity(in);
+    }
     
 }

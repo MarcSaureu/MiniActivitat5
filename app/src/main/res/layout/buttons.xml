@@ -158,35 +158,37 @@
             android:layout_height="wrap_content"
             android:onClick="muestraTextoBoton"/>
     </LinearLayout>
-    
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:text="@string/toogle" />
-    
-    <LinearLayout 
-        android:orientation="horizontal"
-        android:layout_width="match_parent" 
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal">
+        android:text="@string/toogle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
         <!--  Uses the default ON/OFF labels -->
-        <ToggleButton 
-            android:layout_width="wrap_content" 
+        <ToggleButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="muestraInfoToggleBoton"/> 
-        <ToggleButton 
-            android:textOn="@string/ssl_toggle_on" 
+            android:onClick="muestraInfoToggleBoton" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="muestraInfoToggleBoton"
             android:textOff="@string/ssl_toggle_off"
-            android:layout_width="wrap_content" 
+            android:textOn="@string/ssl_toggle_on" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="muestraInfoToggleBoton"/>
-        <ToggleButton 
-            android:textOn="@string/gps_toggle_on" 
+            android:onClick="muestraInfoToggleBoton"
             android:textOff="@string/gps_toggle_off"
-            android:layout_width="wrap_content" 
-            android:layout_height="wrap_content"
-            android:onClick="muestraInfoToggleBoton"/>
-        
+            android:textOn="@string/gps_toggle_on" />
+
     </LinearLayout>
-    
+
 </LinearLayout>
